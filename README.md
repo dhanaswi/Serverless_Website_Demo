@@ -121,7 +121,6 @@ It shows how backend logic can be executed without managing servers while S3 hos
 3. Upload:
    - index.html
    - error.html
-4. Click **Upload**
 <br>
 <p align="center">
 <img src="images/16.png" width="500">
@@ -137,6 +136,7 @@ It shows how backend logic can be executed without managing servers while S3 hos
 3. Save the file
 4. Re-upload the updated index.html to S3
 5. Ensure the object permissions(ACL) **allow public-read access** if required
+6. Click **Upload**
 <br>
 <p align="center">
 <img src="images/19.png" width="500">
@@ -164,3 +164,23 @@ It shows how backend logic can be executed without managing servers while S3 hos
 </p>
 <br>
 
+## Step 9: Access and Test the Serverless Website
+
+1. Go to the **Properties** tab of the S3 bucket
+2. Scroll down to **Static website hosting**
+3. Copy the **Bucket website endpoint URL**
+4. Open it in a new tab
+<br>
+<p align="center">
+<img src="images/26.png" width="500">
+</p>
+<br>
+
+**Your serverless web application is now deployed and running successfully! 🚀**
+
+<br>
+<p align="center">
+<img src="images/27.png" width="500">
+<img src="images/28.png" width="500">
+</p>
+<br>
