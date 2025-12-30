@@ -129,3 +129,38 @@ It shows how backend logic can be executed without managing servers while S3 hos
 <img src="images/18.png" width="500">
 </p>
 <br>
+
+## Step 7: Connect Frontend with API Gateway
+
+1. Open **index.html**
+2. Paste the **API Gateway endpoint URL** inside the code
+3. Save the file
+4. Re-upload the updated index.html to S3
+5. Ensure the object permissions(ACL) **allow public-read access** if required
+<br>
+<p align="center">
+<img src="images/19.png" width="500">
+<img src="images/20.png" width="500">
+<img src="images/21.png" width="500">
+<img src="images/22.png" width="500">
+</p>
+<br>
+
+## Step 8: Enable Static Website Hosting in S3
+
+1. Go to the **Properties** tab of the bucket
+2. Scroll to **Static website hosting**
+3. Click **Edit**
+4. Select **Enable**
+5. Enter:
+   - Index document: index.html
+   - Error document: error.html
+6. Save changes
+<br>
+<p align="center">
+<img src="images/23.png" width="500">
+<img src="images/24.png" width="500">
+<img src="images/25.png" width="500">
+</p>
+<br>
+
