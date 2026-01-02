@@ -12,7 +12,7 @@ This lab aims to demonstrate how frontend applications can interact with backend
 
 - An AWS account
 - Basic knowledge of AWS Console
-- Static website files (index.html, error.html, Lambda Python code)
+- Static website files (`index.html`, `error.html`, `Lambda Python code`)
 - Internet access
 
 
@@ -49,7 +49,7 @@ This lab aims to demonstrate how frontend applications can interact with backend
 
 1. Scroll to the **Code source** section
 2. Remove the default sample code
-3. Paste the Python code which is in **hellocloudgurus.py** 
+3. Paste the Python code which is in `hellocloudgurus.py` 
 4. Click **Deploy** to save changes
 <br>
 <p align="center">
@@ -123,8 +123,8 @@ This lab aims to demonstrate how frontend applications can interact with backend
 1. Open the created bucket
 2. Click **Upload**
 3. Upload:
-   - index.html
-   - error.html
+   - `index.html`
+   - `error.html`
 <br>
 <p align="center">
 <img src="images/16.png" width="500">
@@ -135,7 +135,7 @@ This lab aims to demonstrate how frontend applications can interact with backend
 
 ## Step 7: Connect Frontend with API Gateway
 
-1. Open **index.html**
+1. Open `index.html`
 2. Paste the **API Gateway endpoint URL** inside the code
 3. Save the file
 4. Re-upload the updated index.html to S3
